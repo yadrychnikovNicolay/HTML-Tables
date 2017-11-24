@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+}
+
+th {
+  text-decoration: underline;
+}
+
+td, th {
+    border: 1px solid lightgray;
+    padding: 8px;
+}
+
+.table {
+  margin:auto;
+  margin-top:20px;
+  width: 50%;
+  border: 1px solid;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.male {
+  color: green;
+}
+
+.female {
+  color: purple;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
